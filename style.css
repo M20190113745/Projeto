@@ -74,10 +74,15 @@ body * {
   top: 50%; /*Centralizar verticalmente dentro do contêiner*/
   transform: translateY(-50%); /*Ajustar para centralizar perfeitamente*/
   left: 0; /*Posicionar o botão à esquerda do contêiner para o tema escuro*/
+  animation: slide-back 0.4s; /*Adicionar animação de deslizamento para o tema escuro*/
+}
+#switch button:hover {
+  outline: 8px solid var(--hightlight-color); /*Adicionar efeito de destaque ao passar o mouse sobre o botão*/
 }
 .light #switch button {
-  left: initial; /*Remover a posição esquerda para o tema escuro*/
-  right: 0; /*Posicionar o botão à direita do contêiner para o tema claro*/
+  animation: slide-in 0.4s forwards; /*Adicionar animação de deslizamento para o tema claro*/
+  /* left: initial; /*Remover a posição esquerda para o tema escuro*/
+  /*right: 0; /*Posicionar o botão à direita do contêiner para o tema claro*/
 }
 #switch span {
   display: block;
@@ -147,5 +152,23 @@ footer {
   }
   .light {
     --bg-url: url("./assets/bg-desktop-light.jpg");
+  }
+}
+/*Animations*/
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
