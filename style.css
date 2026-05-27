@@ -10,7 +10,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.2);
-  --hightlight-color: rgba(255, 255, 255, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url("./assets/moon-stars.svg");
 }
 .light {
@@ -20,7 +20,7 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
-  --hightlight-color: rgba(0, 0, 0, 0.2);
+  --highlight-color: rgba(0, 0, 0, 0.2);
   --switch-bg-url: url("./assets/sun.svg");
 }
 
@@ -77,7 +77,7 @@ body * {
   animation: slide-back 0.4s; /*Adicionar animação de deslizamento para o tema escuro*/
 }
 #switch button:hover {
-  outline: 8px solid var(--hightlight-color); /*Adicionar efeito de destaque ao passar o mouse sobre o botão*/
+  outline: 8px solid var(--highlight-color); /*Adicionar efeito de destaque ao passar o mouse sobre o botão*/
 }
 .light #switch button {
   animation: slide-in 0.4s forwards; /*Adicionar animação de deslizamento para o tema claro*/
@@ -137,7 +137,7 @@ ul li a:hover {
   border-radius: 50%; /*Deixar botão redondo*/
 }
 #SocialMedia a:hover {
-  background: var(--hightlight-color);
+  background: var(--highlight-color);
 }
 
 footer {
