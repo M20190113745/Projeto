@@ -6,26 +6,26 @@
 :root {
   /* Define as variáveis de cor para o tema escuro */
   --text-color: white;
-  --bg-url: url("../assets/bg-mobile.jpg");
+  --bg-url: url("./assets/bg-mobile.jpg");
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.2);
   --hightlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url("../assets/moon-stars.svg");
+  --switch-bg-url: url("./assets/moon-stars.svg");
 }
 .light {
   /* Define as variáveis de cor para o tema claro */
   --text-color: black;
-  --bg-url: url("../assets/bg-mobile-light.jpg");
+  --bg-url: url("./assets/bg-mobile-light.jpg");
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --hightlight-color: rgba(0, 0, 0, 0.2);
-  --switch-bg-url: url("../assets/sun.svg");
+  --switch-bg-url: url("./assets/sun.svg");
 }
 
 body {
-  /* background-image: url("../assets/assets/bg-mobile.jpg");
+  /* background-image: url("./assets/assets/bg-mobile.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover; */
