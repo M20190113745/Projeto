@@ -6,12 +6,12 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     img.setAttribute(
       "src",
-      "../assets/avatar-light.png",
+      "/assets/avatar-light.png",
     ) /*Alterar a imagem para o tema claro*/
   } else {
     img.setAttribute(
       "src",
-      "../assets/avatar.png",
+      "/assets/avatar.png",
     ) /*Alterar a imagem para o tema claro*/
   }
 
